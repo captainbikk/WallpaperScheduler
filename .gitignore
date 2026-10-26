@@ -1,0 +1,7 @@
+bin/
+obj/
+.vs/
+*.user
+WallpaperScheduler.exe
+WallpaperScheduler.exe.config
+WallpaperScheduler.pdb

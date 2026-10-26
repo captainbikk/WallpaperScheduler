@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <Deterministic>true</Deterministic>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyName>WallpaperScheduler</AssemblyName>
+    <RootNamespace>WallpaperScheduler</RootNamespace>
+    <AssemblyTitle>Wallpaper Scheduler</AssemblyTitle>
+    <Product>Wallpaper Scheduler</Product>
+    <Version>1.0.0</Version>
+    <Description>Changes a monitor wallpaper on a chosen date for a chosen length of time.</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+</Project>
